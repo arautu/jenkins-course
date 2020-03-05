@@ -1,6 +1,6 @@
 job('NodeJS Docker example') {
     scm {
-        git('git://github.com/wardviaene/docker-demo.git')
+        git('https://github.com/arautu/jenkins-course.git')
     }
     triggers {
         scm('H/5 * * * *')
